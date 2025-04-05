@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: url('E:\Landing_Page_html-cssTemplate\Background.PNG');
+    min-height: 500px;
+    color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo a {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.header-info {
+    margin: 5rem ;
+    border: 1px solid rgb(250, 0, 0);
+    width: 500px;
+}
+
+.header-info h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-btn {
+    margin-top: 1rem;
+}
+
+.header-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.header-btn input {
+    width: 100%;
+    padding: 0.5rem;
+    width: 220px;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button {
+    width: 150%;
+    padding: 0.5rem;
+    background: rgb(0, 183, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-btn button:hover {
+    background: darkred;
+}
