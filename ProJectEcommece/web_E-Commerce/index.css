@@ -1,0 +1,11 @@
+.noto-sans-nandinagari-regular {
+    font-family: "Noto Sans Nandinagari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
